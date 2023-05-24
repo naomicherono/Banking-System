@@ -5,12 +5,11 @@ body{
 }
 .columnsettings{
     float: left;
-    height: 100vh;
     box-sizing: border-box;
-    width: 50%;
     align-items: center;
     margin-left: 5px;
     background-color: blue;
+    
     
 }
 .columnsettings h1{
