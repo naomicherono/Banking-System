@@ -37,7 +37,7 @@ h1{
     background-color: brown;
 } */
 .columnsettings{
-    background-color: blue;
+    
     margin-bottom: 5px;
     
 
@@ -45,18 +45,21 @@ h1{
 img{
     width: 45px;
     height: 45px;
+    text-align: center;
     
 }
 h1{
     margin-top: -45px;
     margin-left: 60px;
-    color: white;
+    color: blue;
+    
     
 }
 li{
     list-style: none;
     padding: 20px;
-    width: 20px;
+    
+
     
 
 }
@@ -68,4 +71,16 @@ span{
     
     color: blue;
     margin-bottom: px;
+    
+}
+.row{
+    width: 100px;
+    height: 100px;
+    
+}
+.rowfeedbak{
+    
+    text-align: center;
+    margin-bottom: -1700px;
+    margin-top: -160px;
 }
