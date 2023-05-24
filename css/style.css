@@ -1,0 +1,49 @@
+/* Login page */
+.column1{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.logo{
+height: 100px;
+margin-top: 20px;
+text-align: center;
+}
+.column1 h1{
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.loginpage{
+    margin-top: 100px;
+    text-align: center;
+}
+
+span.psw {
+    display: block;
+    float: none;
+ }
+
+.column2 .animation{
+    float: right;
+    width: 50%;
+    height: 100vh; 
+}
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 370px;
+    padding: 10px;
+}
+.topimg{
+    width: 49.1vw;
+    height: 50vh;
+    position:absolute;
+    margin-top: 220px;
+   
+}
