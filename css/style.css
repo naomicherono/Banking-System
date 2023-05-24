@@ -53,3 +53,19 @@ h1{
     color: white;
     
 }
+li{
+    list-style: none;
+    padding: 20px;
+    width: 20px;
+    
+
+}
+.row{
+    text-align: center;
+}
+span{
+
+    
+    color: blue;
+    margin-bottom: px;
+}
