@@ -37,13 +37,47 @@ span.psw {
 .login{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 370px;
+    margin-left: 200px;
     padding: 10px;
+    height: 30px;
+    justify-content: space-between;
 }
+
 .topimg{
     width: 49.1vw;
     height: 50vh;
     position:absolute;
     margin-top: 220px;
-   
+    }
+
+    input{
+        width: 50%;
+        border: 1px solid black;
+    }
+    textarea{
+        width: 10%;
+        border: 1px solid black;
+    }
+
+    /* Media Queries */
+@media (max-width: 768px) {
+    .column1 {
+      padding: 15px;
+    }
+  
+    .loginpage {
+      font-size: 30px;
+    }
+  
+    
+  }
+  
+  @media (max-width: 480px) {
+    .column2 {
+      padding: 10px;
+    }
+  
+    .animation .topimg {
+      font-size: 24px;
+    }
 }
