@@ -1,8 +1,29 @@
 /* setting css */
-.container{
+body{
     margin-left: 5px;
+    
+}
+.columnsettings{
+    float: left;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 50%;
+    align-items: center;
+    margin-left: 5px;
+    background-color: blue;
+    
+}
+.columnsettings h1{
+    float: right;
 }
 img{
     width: 50px;
     height: 50px;
+    margin-left: 10px; 
+    margin-top: 15px;
+}
+h1{
+    margin-right: 650px;
+    color: white;
+    
 }
