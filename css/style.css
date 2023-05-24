@@ -1,6 +1,7 @@
 /* setting css */
-body{
+/* body{
     margin-left: 5px;
+    
     
 }
 .columnsettings{
@@ -9,11 +10,13 @@ body{
     align-items: center;
     margin-left: 5px;
     background-color: blue;
+    width: 100vw;
     
     
 }
 .columnsettings h1{
     float: right;
+    
 }
 img{
     width: 50px;
@@ -22,7 +25,31 @@ img{
     margin-top: 15px;
 }
 h1{
-    margin-right: 650px;
+    margin-right:1600px ;
+    color: white;
+    
+}
+.pas{
+    padding: 6px;
+    margin-top: 5px;
+}
+.columnI{
+    background-color: brown;
+} */
+.columnsettings{
+    background-color: blue;
+    margin-bottom: 5px;
+    
+
+}
+img{
+    width: 45px;
+    height: 45px;
+    
+}
+h1{
+    margin-top: -45px;
+    margin-left: 60px;
     color: white;
     
 }
