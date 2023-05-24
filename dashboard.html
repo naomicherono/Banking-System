@@ -25,7 +25,14 @@
                                   <p id="letsdrop">25151445</p>
                               </div>
                         </li>
-                        <li><button class="type"><img src="./Images/money.jpeg" alt="" height="80px" width="80px">Transactions</button></li>
+                        <li>
+                            <button class="dropdown-btn" onclick="toggleTransactDropdown()"><img src="./Images/money.jpeg" alt="" height="80px" width="110px">Transact</button>
+                            <div id="transact-dropdown" class="dropdown-content">
+                                <button class="dropdown-item" onclick="sendMoney()">Send Money</button>
+                                <button class="dropdown-item" onclick="payBill()">Pay Bill</button>
+                                <button class="dropdown-item" onclick="buyGoods()">Buy Goods</button>
+                            </div>
+                        </li>
                         <li><button class="type"><img src="./Images/settigs.jpeg" alt="" height="80px" width="110px">Settings</button></li>
                     </ul>
                 </div>
@@ -61,5 +68,3 @@
     <script src="./js/script.js"></script>
 </body>
 </html>
-
-
