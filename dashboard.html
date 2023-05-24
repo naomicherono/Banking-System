@@ -18,7 +18,13 @@
                 <h2>My Dashboard</h2>
                 <div class="buttons">
                     <ul>
-                        <li><button class="type"><img src="./Images/card.jpeg" height="80px" width="105px">Account</button></li>
+                        <li>
+                            <button class="dropdown-btn" onclick="toggleDropdown()"><img src="./Images/card.jpeg" height="80px" width="100px">Accounts</button>
+                              <div id="dropdown" class="dropdown-content">
+                                  <p id="letsdrop">10402343</p>
+                                  <p id="letsdrop">25151445</p>
+                              </div>
+                        </li>
                         <li><button class="type"><img src="./Images/money.jpeg" height="80px" width="80px">Transactions</button></li>
                         <li><button class="type"><img src="./Images/settigs.jpeg" height="80px" width="110px">Settings</button></li>
                     </ul>
@@ -35,6 +41,9 @@
         <div class="vertical-line"></div>
         <div class="section">
             <div class="dashboard">
+                <div id="dashboard1">
+                    <img src="./Images/savings.jpeg" height="100px" width="100px">              
+                </div>
                 <h2>Budget and Savings</h2>
             </div>
             <div class="list">
@@ -45,9 +54,12 @@
                     <li>Airtime...$20</li>
                     <li>Contingency...$50</li>
                 </ul>
-                <img id="saves" src="./Images/saves.jpeg" height="200px" width="300px">
+                <img id="saves" src="./Images/bottom.jpeg" height="200px" width="300px">
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
+
+
