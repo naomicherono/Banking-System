@@ -13,7 +13,7 @@ function sendMoney() {
   if (isDecimalNumber(mobileNumber) && isDecimalNumber(amount)) {
     alert("Sent Kshs " + amount + " to: " + mobileNumber);
   } else {
-    alert("Weka Numbers pekee we mzee.");
+    alert("Weka Numbers pekee");
   }
 }
 
@@ -27,7 +27,7 @@ function payBill() {
   if (isDecimalNumber(accountNumber) && isDecimalNumber(amount)) {
     alert("Payment of kshs " + amount + " to acc no: " + accountNumber);
   } else {
-    alert("Weka Numbers pekee we mzee.");
+    alert("Weka Numbers pekee");
   }
 }
 
@@ -37,7 +37,7 @@ function buyGoods() {
   if (isDecimalNumber(tillNumber) && isDecimalNumber(amount)) {
     alert("Payment of goods worth Kshs " + amount + " made to till number: " + tillNumber);
   } else {
-    alert("Weka Numbers pekee we mzee.");
+    alert("Weka Numbers pekee");
   }
 }
 
@@ -59,7 +59,7 @@ function enterAmount(category) {
   } else {
     console.log("Amount not entered for " + category);
   }
-  var Amount = confirm("Confirm pesa kwanza ya " + category + " ni: " + amount);
+  var Amount = confirm("Confirm " + category + " : " + amount);
   
 }
 
