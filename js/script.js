@@ -7,32 +7,50 @@ function toggleTransactDropdown() {
     var transactDropdown = document.getElementById("transact-dropdown");
     transactDropdown.classList.toggle("show");
 }
-
 function sendMoney() {
-    var mobileNumber = prompt("Enter the mobile number:");
-    var amount = prompt("Enter the amount in shs:");
-    alert("Payment Received for acc no: " + mobileNumber);
+  var mobileNumber = prompt("Enter the mobile number:");
+  var amount = prompt("Enter the amount in kshs:");
+  if (isDecimalNumber(mobileNumber) && isDecimalNumber(amount)) {
+    alert("Sent Kshs " + amount + " to: " + mobileNumber);
+  } else {
+    alert("Weka Numbers pekee we mzee.");
+  }
 }
+
 
 function payBill() {
-    var accountNumber = prompt("Enter the account number:");
-    var amount = prompt("Enter the amount in shs:");
-    alert("Payment Received for acc no: " + accountNumber);
-}
+  var paybillNumber = prompt("Enter the paybill number")
+  var accountNumber = prompt("Enter the account number:");
+  var amount = prompt("Enter the amount in kshs:");
 
+
+  if (isDecimalNumber(accountNumber) && isDecimalNumber(amount)) {
+    alert("Payment of kshs " + amount + " to acc no: " + accountNumber);
+  } else {
+    alert("Weka Numbers pekee we mzee.");
+  }
+}
 
 function buyGoods() {
-    var payBillNumber = prompt("Enter the pay bill number:");
-
+  var tillNumber = prompt("Enter the till number:");
+  var amount = prompt("Enter the amount in kshs:");
+  if (isDecimalNumber(tillNumber) && isDecimalNumber(amount)) {
+    alert("Payment of goods worth Kshs " + amount + " made to till number: " + tillNumber);
+  } else {
+    alert("Weka Numbers pekee we mzee.");
+  }
 }
 
-function handlePaymentReceived() {
-    alert("Payment received");
+function isDecimalNumber(value) {
+
+  var decimalPattern = /^\d*\.?\d+$/;
+  return decimalPattern.test(value);
 }
+
 
 var budgetData = [];
 function enterAmount(category) {
-  var amount = prompt("Enter the amount in shs for " + category + ":");
+  var amount = prompt("Enter the amount in kshs for " + category + ":");
   if (amount !== null) {
     console.log("Amount for " + category + ": " + amount);
     var data = { category: category, amount: amount }; 

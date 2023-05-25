@@ -24,11 +24,7 @@ h2{
     text-decoration: underline;
     font-size: 30px;
 }
-h1{
-    color: white;
-    float: right;
-    margin-top: 50px;   
-}
+
 li{
     list-style: none;
     padding: 20px;
@@ -60,6 +56,11 @@ li{
     left: 0;
     display: flex;
 }
+#graph{
+    padding-left: 100px;
+    position: absolute;
+    bottom: 20px;
+}
 #card{
     position: absolute;
     bottom: 20px;
@@ -87,7 +88,7 @@ p{
 #dashboard1 {
     position: absolute;
     top: 0;
-    right: 200px;
+    right: 250px;
     display: flex;
 }
 
@@ -139,4 +140,5 @@ p{
   .budget-list{
     font-size: 5px;
   }
+
   
