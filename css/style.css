@@ -8,13 +8,13 @@
 
     color: white;
 }
-h1{
+.se2{
     margin-top: -40px;
-    margin-left: 100px;
+    margin-left: 50px;
     color: white;
 }
 
-ul li img{
+ul img{
     width: 40px;
     height: 20px;
     border-width: 100px;
@@ -28,8 +28,10 @@ ul li img{
 }
 .row3{
     padding: 20px;
+    list-style: none;
 }
-li{
+
+.le {
     list-style: none;
     padding: 30px;
     box-shadow: none;
@@ -69,4 +71,17 @@ ul{
 .copyright {
     text-align: center;
     margin-top: 20px;
+    color: blue;
   }
+
+  .toggleButton{
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+    display: inline;
+  }
+  
+
+
+
+ 
