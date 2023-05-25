@@ -78,9 +78,12 @@ span{
     height: 100px;
     
 }
-.rowfeedbak{
+.rowfeedback{
+    margin-left: 900px;
+    margin-bottom: 1000px;
+    margin-top: -175px;
     
-    text-align: center;
-    margin-bottom: -1700px;
-    margin-top: -160px;
+}
+#session{
+    color: blue;
 }
