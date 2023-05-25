@@ -30,7 +30,7 @@ body{
   }
   
   
-  .container {
+  .container1 {
     padding: 52px 16px;
     display: flex;
     padding: 120px;
@@ -41,10 +41,6 @@ body{
     width: 100px;
     
   }
-h2{
-    margin-top: -150px;
-    
-}
 
 .row{
 display: flex;
