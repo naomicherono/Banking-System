@@ -94,25 +94,45 @@ span .psw {
       }
 
 
-    /* Media Queries */
-@media (max-width: 768px) {
-    .column1 {
-      padding: 15px;
-    }
-  
-    .loginpage {
-      font-size: 30px;
-    }
-  
+      @media (max-width: 768px) {
+        /* Adjustments for tablets */
+        .column1 {
+            width: 100%;
+            height: auto;
+            float: none;
+            box-sizing: border-box;
+            padding: 20px;
+        }
     
-  }
-  
-  @media (max-width: 480px) {
-    .column2 {
-      padding: 10px;
+        .column1 h1 {
+            float: none;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+    
+        .loginpage button {
+            margin-left: 30%;
+        }
+    
+        .topimg {
+            margin-top: 100px;
+        }
     }
-  
-    .animation .topimg {
-      font-size: 24px;
+    
+    @media (max-width: 480px) {
+        /* Adjustments for phones */
+        .column1 h1 {
+            margin-right: 0;
+            margin-top: 10px;
+        }
+    
+        .loginpage button {
+            margin-left: 20%;
+            font-size: 16px;
+            padding: 10px 50px;
+        }
+    
+        .topimg {
+            display: none;
+        }
     }
-}
