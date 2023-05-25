@@ -1,7 +1,7 @@
-
+/* settings.css */
 .container3{
     width: 70%;
-    background-color: grey;
+    background-color: rgb(195,198,201);
     margin-left: 250px;
 }
 h1{
@@ -14,7 +14,8 @@ ul li img{
     width: 40px;
     height: 20px;
     border-width: 100px;
-    margin-right: 100px;
+    margin-right: 150px;
+    
 }
 .columnsettings img{
     width: 40px;
@@ -36,5 +37,14 @@ span{
     text-align: center;
 }
 .set{
-    width: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* display: inline-block;
+    vertical-align: middle; */
+}
+.set img{
+    margin-bottom: 5px;
 }
