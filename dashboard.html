@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Secure Banking</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="dashboard">
+                <div id="dashboard-image">
+                    <img src="./Images/WhatsApp Image 2023-05-24 at 08.37.40.jpeg" alt="" height="100px" width="100px"> 
+                    <p>Secure Banking</p>               
+                </div>
+                <h2 id="h2">My Dashboard</h2>
+                <div class="buttons">
+                    <ul>
+                        <li>
+                            <button class="dropdown-btn" onclick="toggleDropdown()"><img src="./Images/card.jpeg" alt="" height="80px" width="100px">Accounts</button>
+                              <div id="dropdown" class="dropdown-content">
+                                  <p id="letsdrop">10402343</p>
+                                  <p id="letsdrop">25151445</p>
+                              </div>
+                        </li>
+                        <li>
+                            <button class="dropdown-btn" onclick="toggleTransactDropdown()"><img src="./Images/money.jpeg" alt="" height="80px" width="110px">Transact</button>
+                            <div id="transact-dropdown" class="dropdown-content">
+                                <button class="dropdown-item" onclick="sendMoney()">Send Money</button>
+                                <button class="dropdown-item" onclick="payBill()">Pay Bill</button>
+                                <button class="dropdown-item" onclick="buyGoods()">Buy Goods</button>
+                            </div>
+                        </li>
+                        <li><button class="type"><img src="./Images/settigs.jpeg" alt="" height="80px" width="110px">Settings</button></li>
+                    </ul>
+                </div>
+                <img id="card" src="./Images/card.jpeg" alt="" height="200px" width="300px">
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="section">
+            <div class="dashboard">
+                <h2 id="h2">Overview</h2>
+                <img id="graph" src="./Images/graph.jpeg" alt="Money Graph" height="200px" width="300px">
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="section">
+            <div class="dashboard">
+                <div id="dashboard1">
+                    <img src="./Images/savings.jpeg" alt="" height="100px" width="100px">              
+                </div>
+                <h2>Budget and Savings</h2>
+            </div>
+            <div class="list">
+                <ul class="list2">
+                    <li><button class="budget-btn" onclick="enterAmount('Transport')">Transport</button></li>
+                    <li><button class="budget-btn" onclick="enterAmount('Food and Shopping')">Food and Shopping</button></li>
+                    <li><button class="budget-btn" onclick="enterAmount('Rent')">Rent</button></li>
+                    <li><button class="budget-btn" onclick="enterAmount('Airtime')">Airtime</button></li>
+                    <li><button class="budget-btn" onclick="enterAmount('Contingency')">Contingency</button></li>
+                </ul>
+                <ul id="budget-list"></ul>
+                <img id="saves" src="./Images/bottom.jpeg" alt="" height="200px" width="300px">
+            </div>
+        </div>
+    </div>
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>
