@@ -68,12 +68,10 @@ li{
     text-align: center;
 }
 span{
-    text-align: center;
-
-    
+    text-align: center;  
     color: blue;
-    margin-bottom: px;
-    
+    margin-bottom: 10px;
+    margin-right: -10px;
 }
 .row{
     width: 100px;
