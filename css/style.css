@@ -81,13 +81,7 @@ span .psw {
         border: 1px solid black;
         border-radius: 20px;
     }
-    /* textarea{
-        width: 10%;
-        border: 1px solid black;
-    } */
-
-      
-
+  
       span.psw {
         float: right;
         padding-top: 16px;
@@ -136,3 +130,5 @@ span .psw {
             display: none;
         }
     }
+    /* end of login css */
+    
