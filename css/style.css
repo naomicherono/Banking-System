@@ -45,7 +45,8 @@ h1{
 img{
     width: 45px;
     height: 45px;
-    text-align: center;
+    margin-right: 400px;
+    
     
 }
 h1{
@@ -67,6 +68,7 @@ li{
     text-align: center;
 }
 span{
+    text-align: center;
 
     
     color: blue;
