@@ -18,11 +18,12 @@
     <div class="loginpage">
          <h3>SignIn to your Acount.</h3>
       <label class="login" for="ID"><strong>LogIn ID</strong></label>
-      <input class="login"type="number" placeholder="Enter ID" name="ID" required>
+      <input class="login loginId"type="number" placeholder="Enter ID" name="ID" required>
       <label class="login" for="psw"><b>Password</b></label>
-      <input class="login" type="password" placeholder="Enter Password" name="psw" required>
+      <input class="login password" type="password" placeholder="Enter Password" name="psw" required>
   
-      <button class="login" type="submit">Login</button>
+      <button class="login" type="submit" onclick="attemptLogin()">Login</button>
+      <p class="login-result"></p> 
       <!-- <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label> -->
@@ -41,7 +42,7 @@
         <img class="animation" src="Images/animation.gif" alt="funny GIF">
         <img class="topimg" src="Images/topphoto.jpeg" alt="">
     </div>
-    
+    <script src="./js/script.js"></script>
 </body>
 </html>
 
