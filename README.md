@@ -34,6 +34,13 @@ Git
 Vscode
 
 ```
+### credential password
+```
+Login ID = 123456789
+Password = SecureBank  
+
+N/B "S & B are capital in pass"
+```
 
 ### lINK TO LIVE SITE
 ##### https://naomicherono.github.io/Banking-System/
