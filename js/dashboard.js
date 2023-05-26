@@ -93,7 +93,7 @@ function attemptLogin() {
         }
         // Grant access or perform 
     } else {
-        loginResultText = "Login failed. Invalid Login ID or password.";
+        alert("Login failed , invalid credentials")
     }
 
     loginResult.textContent = loginResultText;
