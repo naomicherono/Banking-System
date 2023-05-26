@@ -41,7 +41,7 @@ Vscode
 ## Design
 ![Screenshot from 2023-05-26 00-58-47](https://github.com/naomicherono/Banking-System/assets/132652298/56a30953-c105-45ec-96d1-5a810244a34b)
 
-![Screenshot from 2023-05-18 14-33-13](https://github.com/naomicherono/Banking-System/assets/132652298/aa5d39a1-a298-4992-a3ac-b39b03113e45)
+![Screenshot from 2023-05-26 08-44-07](https://github.com/naomicherono/Banking-System/assets/132652298/940be50a-4c4c-4e58-82de-2d98c3360964)
 
 
 ### known Bugs
