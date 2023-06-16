@@ -1,7 +1,6 @@
-
 /* contact css */
 
-.contact{
+.contact {
     background-color: #0044ff;
     text-align: center;
     padding: 30px;
@@ -10,14 +9,16 @@
 
 
 }
-#body{
+
+#body {
     height: 100%;
     margin: 0px;
-    
+
 }
-.card {
-    
-    box-shadow: 0 7px 8px 0 rgba(0,0,0,0.2);
+
+.cad {
+
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin: 50px;
     text-align: center;
@@ -26,34 +27,35 @@
     border-radius: 15px;
     width: 50%;
     height: 500px;
-  }
+}
 
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  
-  .container1 {
+
+.cad:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container1 {
     padding: 52px 16px;
     display: flex;
     padding: 120px;
     height: 100%;
 
-  }
+}
 
-  .card img{
+.cad img {
     height: 100px;
     width: 100px;
-    
-  }
 
-.row{
-display: flex;
-justify-content:space-between;
-margin-top: 30px;
 }
-#space{
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#space {
     width: 100%;
     padding: 12px;
     border: 1px solid black;
@@ -61,7 +63,8 @@ margin-top: 30px;
     margin-bottom: 16px;
     border-radius: 10px;
 }
-textarea{
+
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid black;
@@ -71,85 +74,93 @@ textarea{
 
 }
 
-  .handles li{
-    margin-top:50px;
-  }
-li{
+.handles li {
+    margin-top: 50px;
+}
+
+li {
     list-style: none;
 }
-ol{
+
+ol {
     display: flex;
     gap: 40px;
     margin-top: 300px;
     margin-right: 30px;
 }
-.icon{
-   height: 50px;
-   
+
+.icon {
+    height: 50px;
+
 }
+
 .column-form {
     margin-left: 250px;
     width: 50%;
     font-size: medium;
     font-weight: 700;
 }
-         
+
 button {
-    background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%);
+    background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
     margin-left: 160px;
-  }
+}
 
 button:hover {
-    background-position: right center; 
+    background-position: right center;
     color: #fff;
     text-decoration: none;
-  }
-  .map{
-    margin-right:50px; 
-  }
- 
-    @media screen and (max-width: 768px) {
-      /* Adjustments for tablets */
-      .column-form {
-          margin-left: 0;
-          width: 100%;
-      }
-  
-      ol {
-          margin-top: 50px;
-          margin-right: 0;
-          justify-content: center;
-      }
-  }
-  
-  @media screen and (max-width: 480px) {
-      /* Adjustments for phones */
-      .container1{
-          flex-direction: column;
-          align-items: center;
-          height: 100%;
-      }
-  
-      .card {
-          width: 80%;
-          margin: 20px;
-      }
-  
-      .column-form {
-          margin-left: 0;
-          width: 100%;
-      } 
-      ol {
+}
+
+.map {
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for tablets */
+    .column-form {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    ol {
+        margin-top: 50px;
+        margin-right: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Adjustments for phones */
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card {
+        width: 80%;
+        margin: 20px;
+    }
+
+    .column-form {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    ol {
         margin-top: 50px;
         margin-right: 0;
         justify-content: center;
@@ -158,31 +169,35 @@ button:hover {
     button {
         margin-left: 0;
     }
-}   
+}
 
 
 /* sart of Login */
-.column1{
+.column1 {
     float: left;
     width: 50%;
     /* height: 100vh; */
     box-sizing: border-box;
 }
-.logo{
-height: 100px;
-margin-top: 20px;
-text-align: center;
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
 }
-.column1 h1{
+
+.column1 h1 {
     float: right;
     margin-right: 500px;
     margin-top: 50px;
 }
-h2{
+
+h2 {
     text-align: center;
     margin-top: 100px;
 }
-.loginpage{
+
+.loginpage {
     margin-top: 100px;
     text-align: center;
 }
@@ -190,132 +205,170 @@ h2{
 span .psw {
     display: block;
     float: none;
- }
+}
 
-.column2 .animation{
+.column2 .animation {
     float: right;
     width: 50%;
-    height: 100vh; 
+    height: 100vh;
 }
-.login{
+
+.login {
     display: flex;
     flex-wrap: wrap;
     margin-left: 200px;
     padding: 10px;
     height: 30px;
     justify-content: space-between;
-    
+
 }
 
-.loginpage button{
-  text-align: center;
-  margin-top: 25px;
-  border-radius: 20px;
-  padding: 15px 100px 30px  ;
-  background-color: rgb(68, 68, 186);
-  color: white;
-  margin-left: 35%;
-  font-size: 20px;
-  font-weight: bolder;
-  background-image: linear-gradient(to right, #005C97 0%, #363795  51%, #005C97  100%);
-  text-transform: uppercase;
-  background-size: 200% auto;
-  box-shadow: 0 0 20px #eee;
-}
-.loginpage button:hover{
-  background-position: right center; 
-  color: #fff;
-  text-decoration: none;
+.loginpage button {
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 15px 100px 30px;
+    background-color: rgb(68, 68, 186);
+    color: white;
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    text-transform: uppercase;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
 }
 
-.topimg{
-  width: 49.1vw;
-  height: 50vh;
-  position:absolute;
-  margin-top: 220px;
-  }
+.loginpage button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
 
-    input{
-        width: 50%;
-        border: 1px solid black;
-        border-radius: 20px;
-    }
-  
-      span.psw {
-        float: right;
-        padding-top: 16px;
-      }
+.topimg {
+    width: 49.1vw;
+    height: 50vh;
+    position: absolute;
+    margin-top: 220px;
+}
+
+input {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
 
 
-      @media (max-width: 768px) {
-        /* Adjustments for tablets */
-        .column1 {
-            width: 100%;
-            height: auto;
-            float: none;
-            box-sizing: border-box;
-            padding: 20px;
-        }
-    
-        .column1 h1 {
-            float: none;
-            margin-right: 0;
-            margin-top: 20px;
-        }
-    
-        .loginpage button {
-            margin-left: 30%;
-        }
-    
-        .topimg {
-            margin-top: 100px;
-        }
+@media (max-width: 768px) {
+
+    /* Adjustments for tablets */
+    .column1 {
+        width: 100%;
+        height: auto;
+        float: none;
+        box-sizing: border-box;
+        padding: 20px;
     }
-    
-    @media (max-width: 480px) {
-        /* Adjustments for phones */
-        .column1 h1 {
-            margin-right: 0;
-            margin-top: 10px;
-        }
-    
-        .loginpage button {
-            margin-left: 20%;
-            font-size: 16px;
-            padding: 10px 50px;
-        }
-    
-        .topimg {
-            display: none;
-        }
+
+    .column1 h1 {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
     }
-    /* end of login css */
-    
+
+    .loginpage button {
+        margin-left: 30%;
+    }
+
+    .topimg {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Adjustments for phones */
+    .column1 h1 {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .loginpage button {
+        margin-left: 20%;
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+
+    .topimg {
+        display: none;
+    }
+}
+
+/* end of login css */
+
+
 /* dashboard styling */
 
-.dash-body{
+.card {
+
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 50px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(195, 198, 201);
+    border-radius: 15px;
+    width: 50%;
+    height: 500px;
+}
+.card img {
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.dash-body {
     /* height: 100%;
     margin: 0px; */
     overflow: hidden;
 }
+
 .nextpage {
     color: #0044ff;
     margin-left: 1300px;
 }
-.settings{
+
+.settings {
     color: #0044ff;
     margin-left: 300px;
 }
-#card:hover { transform: rotateY(180deg); }
 
-#card > div:nth-child(1) { transition-delay: 150ms;}
-
-#card:hover > div:nth-child(1) {
-  opacity: 0;
-  z-index: -1;
+#card:hover {
+    transform: rotateY(180deg);
 }
-*{
-   
+
+#card>div:nth-child(1) {
+    transition-delay: 150ms;
+}
+
+#card:hover>div:nth-child(1) {
+    opacity: 0;
+    z-index: -1;
+}
+
+* {
+
     height: 100%;
     block-size: fit-content;
 
@@ -324,7 +377,7 @@ span .psw {
 .container {
     display: flex;
     height: 100%;
-    
+
 }
 
 .section {
@@ -337,63 +390,59 @@ span .psw {
     background-color: black;
     margin: 0 10px;
 }
-h2{
+
+h2 {
     margin-top: 130px;
     color: black;
     text-decoration: underline;
     font-size: 30px;
 }
 
-li{
+li {
     list-style: none;
     padding: 20px;
     color: white;
     font-size: 30px;
 }
-.buttons{
+
+.buttons {
     padding: 50px;
-  
+
 }
-.type{
+
+.type {
     background-color: white;
     cursor: pointer;
 }
-.dropdown-btn{
+
+.dropdown-btn {
     cursor: pointer;
     width: 150px;
     margin-left: 80px;
     background-color: antiquewhite;
 }
 
-#saves{
-    position: absolute;
-    margin-top: 110px; 
-    margin-left: 50px;
-    bottom: 20px;
-
-}
 #dashboard-image {
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
 }
-#graph{
-    padding-left: 100px;
-    position: absolute;
-    bottom: 20px;
-}
-#card{
+
+
+#card {
     position: absolute;
     bottom: 20px;
     left: 50px;
     display: flex;
 }
-p{
+
+p {
     color: black;
     font-size: 35px;
     padding-top: 30px;
 }
+
 .dropdown-content {
     color: black;
 }
@@ -402,12 +451,15 @@ p{
     display: block;
     color: #182848;
 }
-#letsdrop{
+
+#letsdrop {
     font-size: 15px;
 }
-.dropdown-btn{
+
+.dropdown-btn {
     background-color: white;
 }
+
 #dashboard1 {
     position: absolute;
     top: 0;
@@ -439,7 +491,8 @@ p{
     margin: 0;
     padding: 8px 16px;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: rgb(7, 4, 4);
     border: 1px solid blue;
     padding: 2px;
@@ -447,26 +500,80 @@ p{
     width: 100px;
     display: block;
 }
-.budget-btn {
-    display: block;
-    width: 40%;
-    padding: 5px;
-    text-align: left;
-    background-color: #f1f1f1;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .budget-btn:hover {
-    background-color: #ddd;
-  }
-  .budget-list{
-    font-size: 5px;
+
+.transact {
+    display: flex;
+    gap: 20px;
+    padding-left: 300px;
+    padding-top: 70px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-btn {
+    height: 100px;
+    width: 200px;
+    background-color: aliceblue;
     color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.cards1 {
+    display: flex;
+}
+
+.cards {
+    display: block;
+}
+
+img[alt="calc"] {
+    display: block;
+    margin: 40px auto;
+}
+
+.boddy {
+    display: flex;
+}
+
+.savings {
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 30px;
+    border-bottom: 3px solid blue;
+    width: fit-content;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.small {
+    font-size: 20px;
   }
+
 /* start of settings css */
-.container3{
+/* .container3 {
     width: 70%;
     background-color: rgb(128, 128, 139);
     margin-left: 250px;
@@ -474,25 +581,28 @@ p{
     padding: 20px;
     color: white;
 }
-.se2{
+
+.se2 {
     margin-top: -40px;
     margin-left: 50px;
     color: white;
 }
 
-ul img{
+ul img {
     width: 40px;
     height: 20px;
     border-width: 100px;
     margin-right: 150px;
-    
-    
+
+
 }
-.columnsettings img{
+
+.columnsettings img {
     width: 40px;
-    
+
 }
-.row3{
+
+.row3 {
     padding: 20px;
     list-style: none;
 }
@@ -502,13 +612,15 @@ ul img{
     padding: 30px;
     box-shadow: none;
     text-align: center;
-    
+
 }
-span{
+
+span {
     text-align: center;
 }
-.set{
-    
+
+.set {
+
     color: blue;
     display: flex;
     align-items: center;
@@ -516,37 +628,81 @@ span{
     width: 200px;
     height: 100px;
     margin-right: 250px;
-} 
-.set img{
+}
+
+.set img {
     margin-right: 25px;
     vertical-align: middle;
-    
+
 }
-.set span{
+
+.set span {
     flex-grow: 1;
-}
-ul{
+} */
+
+ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-      
+
 }
+
 .copyright {
     text-align: center;
     margin-top: 20px;
     color: blue;
-  }
+}
 
-  .toggleButton{
+.toggleButton {
     /* width: 7rem;
     height: 5rem; */
     position: relative;
     display: inline;
     height: 100px;
+}
+
+.containerset {
+    position: relative;
+    display: inline-block;
   }
   
-
-
-
- 
+  #settingsButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+  }
+  
+  #settingsMenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 150px;
+  }
+  
+  #settingsMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #settingsMenu li {
+    padding: 8px 0;
+  }
+  
+  #settingsMenu li a {
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+  #settingsMenu li a:hover {
+    color: #4CAF50;
+  }
